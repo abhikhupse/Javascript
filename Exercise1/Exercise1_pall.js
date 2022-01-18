@@ -24,18 +24,35 @@
 
 // Arrow Function
 
-var pd =(str)=>{
-    var a=String(str)
-    var b=b=a.split("").reverse().join("")
+// var pd =(str)=>{
+//     var a=String(str)
+//     var b=b=a.split("").reverse().join("")
+//     if(a==b)
+//     {
+//         console.log("str is pd")
+//     }
+//     else
+//     {
+//         console.log("str not pd")
+//     }
+// }
+// console.log(pd("Abhi"))
+
+
+function pal(str){
+    // console.log("Pall: ",pal)
+    console.log(str("MADAM"))
+}
+pal(function(str){
+    var a,b;
+    a= String(str)
+    b= a.split("").reverse().join("")
     if(a==b)
     {
-        console.log("str is pd")
+        console.log("Str is Pall")
     }
     else
     {
-        console.log("str not pd")
+        console.log("Str is not Pall")
     }
-}
-console.log(pd("jenil"))
-
-
+});

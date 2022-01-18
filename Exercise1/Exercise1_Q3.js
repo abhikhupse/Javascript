@@ -3,18 +3,33 @@
 // Expected output :- d,do,dog,o,og,g
 
 
-var test = function(str)
-{
-    a=(str.length)
+// var test = function(str)
+// {
+//     a=(str.length)
+//     for(i=0;i<a;i++)
+//     {
+//         for(j=i+1;j<a+1 ;j++)
+//         {
+//             console.log(str.substring(i,j))
+//         }
+
+//     }
+
+// }
+
+// console.log(test('dog'))
+
+function test(str){
+    // console.log("comb: ",str)
+    console.log(str("dog"))
+}
+test (function(str){
+    var a= str.length
     for(i=0;i<a;i++)
     {
-        for(j=i+1;j<a+1 ;j++)
+        for(j=i+1;j<a+1;j++)
         {
             console.log(str.substring(i,j))
         }
-
     }
-
-}
-
-console.log(test('dog'))
+});

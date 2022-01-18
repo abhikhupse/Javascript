@@ -6,3 +6,14 @@ function alphabet_order(str) {
     return str.split('').sort().join('');
  }
  console.log(alphabet_order("webmaster"));
+
+
+ function alpha(str){
+     console.log("Alphabet Order: ",alpha)
+     console.log(str("webmaster"))
+ }
+
+ function alpha(str) {
+    return str.split('').sort().join('');
+ };
+
